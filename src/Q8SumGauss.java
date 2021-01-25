@@ -18,6 +18,7 @@ public class Q8SumGauss {
         }
 
       */
+        //답안
         sum = (n + 1) * (n / 2) + (n % 2 == 1 ? (n + 1) / 2 : 0); // 합
         System.out.println("1부터 n까지의 합 : " + sum);
     }
