@@ -15,9 +15,10 @@ public class Q16StarPiramid {
             for(int j=1; j<=(i-1)*2+1; j++){
                 System.out.print("*");
             }
+            /* 뒷부분을 띄어쓰기 하지 않고 공백으로 두기
             for(int k=n-i; k>=1; k--){
                 System.out.print(" ");
-            }
+            }*/
             System.out.println();
         }
     }
