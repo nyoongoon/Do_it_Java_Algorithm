@@ -16,9 +16,9 @@ public class C4Q4Queue {
 
         public int pop(){
             int result = que[0];
-            for(int i = 0; i < num; i++){
-                que[i] = que[i+1];
-            }
+            for (int i = 0; i < num - 1; i++)   //마지막인덱스 처리하지 않음
+                que[i] = que[i + 1];            //ㄴ>num이 줄어듬으로 마지막 데이터는 상관이 없기 때문!
+            num--;  //데이터수 감소
             return result;
         }
     }
